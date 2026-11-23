@@ -14,6 +14,10 @@ IP address filters help identify packets based on their source and destination I
 | `ip.src == 192.168.1.10` | Displays packets originating from a specific IP |
 | `ip.dst == 192.168.1.20` | Displays packets sent to a specific destination IP |
 
+
+
+
+
  2. Protocol Filters
 
 Protocol filters identify packets belonging to specific network protocols.
