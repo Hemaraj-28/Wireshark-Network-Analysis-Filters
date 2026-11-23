@@ -3,6 +3,7 @@
 Wireshark is an open-source network protocol analyzer used to capture, inspect, and analyze network traffic. It helps users understand communication between devices, troubleshoot network problems, and investigate unusual network activities.
 
 **1. IP Address Filters**
+<img width="1574" height="606" alt="Screenshot 2026-11-23 144037" src="https://github.com/user-attachments/assets/9b0095fd-cc0d-405f-8786-840626c6bbdc" />
 
 <img src="./assets/media/image1.png" style="width:6.26042in;height:2.84375in" />
 
