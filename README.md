@@ -119,6 +119,7 @@ TCP flags control connection establishment, communication, and termination.
 \| \`tcp.flags.syn == 1 && tcp.flags.ack == 0\` \| Displays initial TCP connection requests \|
 
 **8. Field-Based Filters**
+<img width="1514" height="728" alt="Screenshot 2026-11-23 154004" src="https://github.com/user-attachments/assets/254116b1-822e-4bb1-9cfb-ed146b613f9e" />
 
 Field-based filters inspect specific fields within packet headers and protocol information.
 
