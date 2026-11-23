@@ -3,9 +3,9 @@
 Wireshark is an open-source network protocol analyzer used to capture, inspect, and analyze network traffic. It helps users understand communication between devices, troubleshoot network problems, and investigate unusual network activities.
 
 **1. IP Address Filters**
+<img width="1564" height="712" alt="Screenshot 2026-11-23 143803" src="https://github.com/user-attachments/assets/10a83d6f-afbb-466b-9157-ac173e6d4275" />
 
 
-<img src="./assets/media/image1.png" style="width:6.26042in;height:2.84375in" />
 
 IP address filters help identify packets based on their source and destination IP addresses.
 
@@ -21,7 +21,7 @@ IP address filters help identify packets based on their source and destination I
 
 **2. Protocol Filters**
 
-<img src="./assets/media/image2.png" style="width:6.26806in;height:3.49653in" />
+
 
 Protocol filters identify packets belonging to specific network protocols.
 
@@ -37,6 +37,7 @@ Protocol filters identify packets belonging to specific network protocols.
 
 **3. Port Filters**
 
+<img width="1097" height="612" alt="Screenshot 2026-11-23 143049" src="https://github.com/user-attachments/assets/8296a328-55f6-45ca-a227-a0e0d21619b0" />
 Port filters identify network traffic associated with specific services and applications.
 
 \| Filter \| Description \|
@@ -50,8 +51,8 @@ Port filters identify network traffic associated with specific services and appl
 \| \`udp.port == 53\` \| Displays UDP traffic involving DNS port 53 \|
 
 4\. Time-Based Filters
+<img width="1568" height="606" alt="Screenshot 2026-11-23 143918" src="https://github.com/user-attachments/assets/7468bd9a-9f82-4d43-a486-98cd4a090eba" />
 
-<img src="./assets/media/image3.png" style="width:6.26042in;height:2.41667in" />
 
 Time-based filters help analyze packets according to their arrival time and capture timestamps.
 
@@ -69,7 +70,8 @@ Time-based filters help analyze packets according to their arrival time and capt
 
 5\. Error and Anomaly-Based Filters
 
-<img src="./assets/media/image4.png" style="width:6.26042in;height:2.42708in" />
+<img width="1568" height="609" alt="Screenshot 2026-11-23 144002" src="https://github.com/user-attachments/assets/f96a0fca-4603-4afd-a205-db673c0f2328" />
+
 
 These filters help identify retransmissions, duplicate acknowledgments, and malformed packets.
 
@@ -84,8 +86,9 @@ These filters help identify retransmissions, duplicate acknowledgments, and malf
 \| \`malformed\` \| Displays packets identified by Wireshark as malformed \|
 
 **6. TCP Flags Filters**
+<img width="1574" height="606" alt="Screenshot 2026-11-23 144037" src="https://github.com/user-attachments/assets/d2964e69-d022-4cd0-ada0-8f35ff951437" />
 
-<img src="./assets/media/image5.png" style="width:6.26042in;height:2.41667in" />
+
 
 TCP flags control connection establishment, communication, and termination.
 
@@ -100,8 +103,10 @@ TCP flags control connection establishment, communication, and termination.
 \| \`tcp.flags.fin == 1\` \| Displays packets with the FIN flag enabled \|
 
 **7. Combination Filters**
+<img width="1560" height="608" alt="Screenshot 2026-11-23 144118" src="https://github.com/user-attachments/assets/3f12cb00-670f-4c7f-9f3f-e07f9a1d7473" />
 
-<img src="./assets/media/image6.png" style="width:6.26042in;height:2.4375in" />Combination filters use multiple conditions to identify specific network traffic.
+
+
 
 \| Filter \| Description \|
 
@@ -121,13 +126,17 @@ Field-based filters inspect specific fields within packet headers and protocol i
 
 \|---\|---\|
 
-\| \`<img src="./assets/media/image7.png" style="width:6.27083in;height:3.25in" />\` \| Displays packets larger than 1000 bytes \|
+
 
 \| \`ip.ttl \< 64\` \| Displays IPv4 packets with a TTL value below 64 \|
 
 \| \`tcp.window_size \< 1000\` \| Displays TCP packets with an advertised window size below 1000 \|
 
-**9. Advanced Filters**<img src="./assets/media/image8.png" style="width:6.26042in;height:2.70833in" />
+**9. Advanced Filters**
+<img width="1502" height="649" alt="Screenshot 2026-11-23 150839" src="https://github.com/user-attachments/assets/502d8a57-5074-45aa-a392-13503918df45" />
+
+
+
 
 Advanced filters combine multiple protocol fields and conditions for more specific network investigations.
 
